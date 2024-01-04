@@ -26,7 +26,7 @@ class ParsedEvent(BaseModel):
     event_type: str
     timestamp: datetime
     email_id: int
-    clicked_link: Optional[str] = [None]
+    clicked_link: Optional[str] = None
     product_id: Optional[int] = None
     amount: Optional[float] = None
 
