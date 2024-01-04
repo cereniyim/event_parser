@@ -46,7 +46,7 @@ uvicorn app.main:app
 
 Then access it through http://127.0.0.1:8000/docs in your web browser
 
-# Further Improvement Areas for a productionready solution
+# Further improvement areas for a production-ready solution
 - Use proper DB solution like mongoDB, mySQL or any other DB solution depending on the requirements
 - Enable authentication for the app
 - Decouple event parsing and even loading logic from the app.main.py and move to code to dedicated Python modules
