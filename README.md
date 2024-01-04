@@ -44,6 +44,8 @@ py.test tests
 uvicorn app.main:app
 ```
 
+Then access it through http://127.0.0.1:8000/docs in your web browser
+
 # Further Improvement Areas for a productionready solution
 - Use proper DB solution like mongoDB, mySQL or any other DB solution depending on the requirements
 - Enable authentication for the app
